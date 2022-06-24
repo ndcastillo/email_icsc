@@ -1,4 +1,8 @@
 <!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
+
+<!-- Design by David Castillo -->
+<!-- Visited my WebSite www.davidcastillo.dev -->
+
 <html xmlns=“http://www.w3.org/1999/xhtml”>
 <head>
     <meta charset="UTF-8">
@@ -6,6 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@700&display=swap');
+
+        .image-header-tablet{
+                display: inline-block !important;
+                border-radius: 6px !important;
+            }
 
         @media screen and (min-width:300px) and (max-width:599px){
             .button-web{
@@ -33,10 +42,10 @@
 
             .image-header-mobile{
                 display: inline-block !important;
+                border-radius: 6px !important;
             }
 
-            .image-header-tablet,
-            .image-header-desktop{
+            .image-header-tablet{
                 display: none !important;
             }
 
@@ -47,14 +56,14 @@
 
         @media screen and (min-width:600px) and (max-width: 800px) {
             td{
-                font-size: 30px !important;
+                font-size: 18px !important;
             }
             .image-header-tablet{
                 display: inline-block !important;
+                border-radius: 6px !important;
             }
 
-            .image-header-mobile,
-            .image-header-desktop{
+            .image-header-mobile{
                 display: none !important;
             }
 
@@ -72,19 +81,8 @@
         }
 
         @media screen and (min-width: 801px){
-            .body-table{
-                margin-top:10px !important;
-                border-radius: 6px !important;
-            }
-
-            .image-header-desktop{
-                display: inline-block !important;
-                border-radius: 6px !important;
-            }
-
-
-            .image-header-mobile,
-            .image-header-tablet{
+            
+            .image-header-mobile{
                 display: none !important; 
             }
 
@@ -97,7 +95,7 @@
 
             .first-column{
                 width:33% !important;
-                padding-left: 41px !important;
+                padding-left: 20px !important;
             }
 
             .second-column{
@@ -113,9 +111,10 @@
 </head>
 <body style="margin:0 ;padding:0;">
     <table  
-            class="body-table"
+            
             bgcolor="#25387D"
-            style="max-width:600px;"
+            style="max-width:600px;
+            border-radius: 6px;"
             width="100%" 
             align="center" 
             border="0" 
@@ -146,12 +145,6 @@
                     border="0"
                     style="max-width: 600;height: auto;display: block;">
 
-                    <img
-                    class="image-header-desktop"
-                    src="https://raw.githubusercontent.com/ndcastillo/email_icsc/main/HeaderSuffix.png" 
-                    width="100%"
-                    border="0"
-                    style="max-width: 600;height: auto;display: block;">
                 </a>
             </td>
         </tr>
@@ -176,7 +169,7 @@
                             text-align: justify !important;
                             color: #fff;
                             padding:41px;
-                            padding-bottom: 20px;
+                            padding-bottom: 30px;
                             font-family: 'Inter', sans-serif;
                             font-size: 16px;
                             line-height: 136.5%;">
@@ -272,7 +265,7 @@
                         align="justify"
                         style="color: #fff;
                         padding: 41px;
-                        padding-bottom: 10px;
+                        padding-bottom: 0px;
                         font-family: 'Inter', sans-serif;font-size: 16px;
                         line-height: 136.5%;"
                         >
@@ -357,15 +350,16 @@
                     <!-- Fechas Importantes -->
                     <tr>
                         <td
+                        
                         style="color: #fff;
-                                    padding: 41px;
-                                    padding-top:0px;
-                                    padding-bottom:20px;
-                                    font-family: 'Inter', sans-serif;font-size: 16px;
-                                    line-height: 136.5%;"
+                            padding: 41px;
+                            padding-top:0px;
+                            padding-bottom:0px;
+                            font-family: 'Inter', sans-serif;font-size: 16px;
+                            line-height: 136.5%;"
                         >
                             
-                            <h1 class="dates" style="font-family: 'Lato', sans-serif; font-size: 24px;padding: 53px 0 0 24px;">FECHAS IMPORTANTES</h1>
+                            <h1 class="dates" style="font-family: 'Lato', sans-serif; font-size: 24px;padding: 24px 0 0 24px; margin-bottom: 10px;">FECHAS IMPORTANTES</h1>
                             
                             <img style="padding: 0 0 0 14px;" src="https://raw.githubusercontent.com/ndcastillo/email_icsc/main/LineaFechas.png" alt="Linea de Subtitulo">
 
@@ -388,7 +382,7 @@
                             </center>
 
                             <!-- Inicio de nota de pie -->
-                            <span class="footletter" style="display:inline-block;text-align:justify;color: #9E9E9E;font-size:12px;line-height: 120%;">*Todos los artículos aceptados se incluirán en el “congress proceedings” del evento (publicación digital con ISBN). Además,  en esta fecha, los organizadores notificarán a los autores si sus artículos pueden ser presentados o no en alguna de las revistas indexadas citadas arriba.</span>
+                            <span class="footletter" style="display:inline-block;text-align:justify;color: #dadada;font-size:12px;line-height: 120%;">*Todos los artículos aceptados se incluirán en el “congress proceedings” del evento (publicación digital con ISBN). Además,  en esta fecha, los organizadores notificarán a los autores si sus artículos pueden ser presentados o no en alguna de las revistas indexadas citadas arriba.</span>
                             <br><br>
                             <!-- Fin de nota de pie -->
                         </td>
@@ -399,12 +393,25 @@
                         <td align="justify"
                             style="color: #fff;
                             padding: 41px;
-                            padding-top:0px;
+                            padding-top:20px;
                             padding-bottom:20px;
                             font-family: 'Inter', sans-serif;font-size: 16px;
                             line-height: 136.5%;"
                         >
-                            En caso de tener interés de participar en este evento o requerir mayor información, se solicita referirse al correo electrónico <a style="color: #1998CF;" href="mailto:icsc-cities2022@ucuenca.edu.ec">icsc-cities2022@ucuenca.edu.ec</a>.
+                            En caso de tener interés de participar en este evento o requerir mayor información, se solicita referirse al correo electrónico:<br>
+                            <br>
+                            <center>
+                                <a 
+                                style="
+                                border-radius: 5px;
+                                padding-top: 5px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                color: #ffffff;
+                                background: #C6287A;
+                                " href="mailto:icsc-cities2022@ucuenca.edu.ec">icsc-cities2022@ucuenca.edu.ec</a>
+                            </center>
                             
                         </td>
                     </tr>
@@ -421,7 +428,7 @@
                 <table border="0"  cellspacing="0" cellpadding="0" width="100%">
                     <!-- Span de redes sociales -->
                     <tr>
-                        <td style="padding-top:41px;padding-bottom:0px;padding-left:0px;padding-rigth:0px;color:#ffffff;font-family: 'Inter', sans-serif;font-size: 16px;line-height: 136.5%;">
+                        <td style="padding-top:80px;padding-bottom:0px;padding-left:0px;padding-right:0px;color:#ffffff;font-family: 'Inter', sans-serif;font-size: 16px;line-height: 136.5%;">
                             <center>
                                 VÍSITENOS Y SÍGANOS    EN    NUESTRAS   REDES   SOCIALES
                             </center>
@@ -433,7 +440,7 @@
                     <tr>
                         <td>
                             <table border="0" align="center" cellspacing="0" cellpadding="0" 
-                            style="padding-bottom:41px;">
+                            style="padding-top:0px;">
                                 <tr><td><br></td></tr>
                                 <tr>
                                     <td
